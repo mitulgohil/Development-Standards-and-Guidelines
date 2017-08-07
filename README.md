@@ -217,7 +217,7 @@ Parameters are represented in the SQL statement by a @ marker.
 # Profiling
 Profiling is a form of dynamic program analysis that measures memory, time complexity of a program, the usage of particular instructions or the frequency and duration of function calls. Profiler gathers a lot of data for each request. Use this data to check the number of database calls, the time spent in the framework, etc.
 
-- **FLat profiler:**
+- **Flat profiler:**
 Flat profilers compute the average call times, from the calls, and do not break down the call times based on the callee or the context.
 
 - **Call-graph profiler:**
