@@ -558,14 +558,6 @@ Every module shoud have their own route, services and components. Reusable compo
 
 # Documentations
 
-### API Documentation
-In order to create a rest API and API documentation, We will use `swagger` to create an API document.
-Following is the process of API creation and documentation.
-
-- Create API stub.
-- Write test cases using RSpec.
-- Generate swagger API doc. We will use `rswag` gem for swagger integration.
-
 ### Readme file
 It is often the first thing a visitor will see when visiting your repository and it must include following sections.
 
